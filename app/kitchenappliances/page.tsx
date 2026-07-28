@@ -1,0 +1,2 @@
+import { CatalogLanding } from '@/components/product/CatalogLanding';
+export default function KitchenAppliancesPage() { return <CatalogLanding title="Kitchen Appliances" slug="kitchen-appliances" />; }

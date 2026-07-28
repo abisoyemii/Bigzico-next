@@ -1,0 +1,2 @@
+import { InfoPage } from '@/components/content/InfoPage';
+export default function ServicesPage() { return <InfoPage eyebrow="Professional support" title="Book Expert Technicians" description="Professional repair, installation, and maintenance for your home appliances." points={['AC repair and installation', 'Fridge and freezer servicing', 'Washing machine repair', 'Electrical and plumbing support']} />; }

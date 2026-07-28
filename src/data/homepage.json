@@ -1,0 +1,331 @@
+{
+  "announcement": {
+    "text": "Free delivery on orders above ₦200,000 • Secure payments • 24/7 expert support",
+    "dismissText": "Dismiss"
+  },
+  "hero": {
+    "slides": [
+      {
+        "image": "photo-1584568694244-14fbdf83bd30",
+        "eyebrow": "New Arrivals 2026",
+        "title": "Premium Appliances, Delivered Fast",
+        "titleHighlight": "Delivered Fast",
+        "copy": "Genuine fridges, ACs & more — with certified technicians on call 24/7.",
+        "buttons": [
+          {
+            "text": "Shop Now →",
+            "href": "/shop",
+            "variant": "primary"
+          },
+          {
+            "text": "Book Technician",
+            "href": "/services",
+            "variant": "secondary"
+          }
+        ],
+        "stats": [
+          { "value": "50K+", "label": "Happy Customers" },
+          { "value": "24h", "label": "Delivery" },
+          { "value": "200+", "label": "Technicians" }
+        ]
+      },
+      {
+        "image": "photo-1581578731548-c64695cc6952",
+        "eyebrow": "24/7 Expert Service",
+        "title": "Need a Technician? We are Here 24/7",
+        "titleHighlight": "Technician?",
+        "copy": "Certified professionals for AC, fridge, washing machine, electrical works, and plumbing.",
+        "buttons": [
+          {
+            "text": "Shop Now →",
+            "href": "/shop",
+            "variant": "primary"
+          },
+          {
+            "text": "Book Technician",
+            "href": "/services",
+            "variant": "secondary"
+          }
+        ],
+        "stats": [
+          { "value": "50K+", "label": "Happy Customers" },
+          { "value": "24h", "label": "Delivery" },
+          { "value": "200+", "label": "Technicians" }
+        ]
+      },
+      {
+        "image": "photo-1626147116986-4601771470a6",
+        "eyebrow": "Limited Time Offers",
+        "title": "Flash Deals Up to 40% Off",
+        "titleHighlight": "Deals",
+        "copy": "Grab the best prices on refrigerators, air fryers, AC units, and more.",
+        "buttons": [
+          {
+            "text": "Shop Now →",
+            "href": "/shop",
+            "variant": "primary"
+          },
+          {
+            "text": "Book Technician",
+            "href": "/services",
+            "variant": "secondary"
+          }
+        ],
+        "stats": [
+          { "value": "50K+", "label": "Happy Customers" },
+          { "value": "24h", "label": "Delivery" },
+          { "value": "200+", "label": "Technicians" }
+        ]
+      }
+    ]
+  },
+  "trustFeatures": [
+    {
+      "title": "12-Month Warranty",
+      "copy": "On all products",
+      "icon": "🛡"
+    },
+    {
+      "title": "7-Day Returns",
+      "copy": "Easy return policy",
+      "icon": "↻"
+    },
+    {
+      "title": "24/7 Support",
+      "copy": "Always available",
+      "icon": "☎"
+    },
+    {
+      "title": "Best Prices",
+      "copy": "Price match guarantee",
+      "icon": "%"
+    }
+  ],
+  "liveActivity": {
+    "label": "LIVE",
+    "items": [
+      "Emmanuel from Ogun just booked AC repair",
+      "Chioma from Lagos purchased an LG 420L refrigerator",
+      "New 5-star review from Amina in Port Harcourt",
+      "Same-day delivery completed in Ikeja",
+      "Technician dispatched to Lekki"
+    ]
+  },
+  "productSections": [
+    {
+      "id": "flashDeals",
+      "title": "Flash Deals",
+      "subtitle": "Limited-time prices on trusted appliances",
+      "href": "/deals"
+    },
+    {
+      "id": "shopByCategory",
+      "title": "Shop by Category",
+      "subtitle": "Everything your home needs, in one place"
+    },
+    {
+      "id": "featuredProducts",
+      "title": "Featured Products",
+      "subtitle": "Best-rated favourites for homes, offices, and businesses",
+      "href": "/products"
+    }
+  ],
+  "howItWorks": {
+    "title": "How BIGZICO Works",
+    "subtitle": "From browsing to your doorstep in 4 simple steps",
+    "steps": [
+      {
+        "title": "Browse & Select",
+        "copy": "Explore 500+ genuine appliances or book a service"
+      },
+      {
+        "title": "Secure Checkout",
+        "copy": "Pay with card, transfer, or Pay on Delivery"
+      },
+      {
+        "title": "Fast Delivery",
+        "copy": "Same-day in Lagos/Ogun/Abuja/PH, 3-5 days nationwide"
+      },
+      {
+        "title": "Enjoy & Support",
+        "copy": "12-month warranty + 24/7 technician support"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose BIGZICO?",
+    "subtitle": "We are committed to providing the best shopping and service experience",
+    "reasons": [
+      {
+        "title": "Genuine Products",
+        "copy": "100% authentic appliances with manufacturer warranty",
+        "icon": "🏅"
+      },
+      {
+        "title": "Fast Delivery",
+        "copy": "Same-day delivery in major cities across Nigeria",
+        "icon": "🚚"
+      },
+      {
+        "title": "Secure Payments",
+        "copy": "Multiple payment options with fraud protection",
+        "icon": "💳"
+      },
+      {
+        "title": "24/7 Support",
+        "copy": "Dedicated support for all your needs, anytime",
+        "icon": "☎"
+      }
+    ]
+  },
+  "paymentPlan": {
+    "badge": "💳 Flexible Payment",
+    "title": "Buy Now, Pay Small Small",
+    "titlePart": "Small Small",
+    "description": "Do not let budget stop you from upgrading your home. Split your payments into 3 or 6 monthly installments with zero hidden fees.",
+    "features": [
+      {
+        "title": "0% Interest on 3-month plans",
+        "copy": "For orders above ₦100,000"
+      },
+      {
+        "title": "Instant Approval",
+        "copy": "No paperwork, no waiting"
+      },
+      {
+        "title": "Works with All Banks",
+        "copy": "GTBank, Access, UBA, First Bank and more"
+      }
+    ],
+    "button": {
+      "text": "Learn More →",
+      "href": "/warranty"
+    },
+    "calculator": {
+      "title": "Payment Calculator",
+      "priceLabel": "Product Price:",
+      "priceDefault": "₦150,000",
+      "planLabel": "Installment Plan",
+      "plans": [
+        { "label": "3 Months", "value": 3 },
+        { "label": "6 Months", "value": 6 },
+        { "label": "12 Months", "value": 12 }
+      ],
+      "priceRange": {
+        "min": 50000,
+        "max": 500000,
+        "step": 10000
+      },
+      "monthlyLabel": "Monthly Payment",
+      "monthlyDefault": "₦50,000",
+      "disclaimer": "No hidden fees • Instant approval"
+    }
+  },
+  "serviceHighlights": {
+    "label": "Why buy from BIGZICO",
+    "title": "Trusted experience from checkout to delivery",
+    "highlights": [
+      {
+        "icon": "🛡",
+        "title": "Warranty",
+        "copy": "Manufacturer-backed support on eligible appliances."
+      },
+      {
+        "icon": "🚚",
+        "title": "Fast Delivery",
+        "copy": "Reliable dispatch across major Nigerian cities."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure Payment",
+        "copy": "Safe online checkout and trusted payment channels."
+      },
+      {
+        "icon": "☎️",
+        "title": "Customer Support",
+        "copy": "Technical assistance and service booking available daily."
+      },
+      {
+        "icon": "↺",
+        "title": "Easy Returns",
+        "copy": "Flexible return support for unused products in original condition."
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Customer reviews",
+    "title": "What customers say about BIGZICO",
+    "items": [
+      {
+        "name": "Chidi Okafor",
+        "role": "Lagos homeowner",
+        "quote": "The delivery was fast and the installation team was professional. My new fridge looks great and runs quietly."
+      },
+      {
+        "name": "Halima Yusuf",
+        "role": "Abuja family",
+        "quote": "I found the right AC and the support team helped me choose the perfect size for my space."
+      },
+      {
+        "name": "Tunde Adebayo",
+        "role": "Business owner",
+        "quote": "BIGZICO made it easy for me to buy a generator for our office. Everything arrived on time."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions? We have got answers",
+    "items": [
+      {
+        "question": "How long does delivery take?",
+        "answer": "Same-day delivery is available in Lagos, Abuja and major parts of Port Harcourt. Nationwide delivery usually takes 3-5 business days."
+      },
+      {
+        "question": "Are your products genuine?",
+        "answer": "Yes. We only stock authentic appliances from trusted brands and provide manufacturer-backed warranties on eligible products."
+      },
+      {
+        "question": "Do you offer installation services?",
+        "answer": "Absolutely. We offer professional installation for ACs, refrigerators, washing machines, and more through our certified technicians."
+      },
+      {
+        "question": "What is your return policy?",
+        "answer": "You can return unused items in original condition within 7 days of delivery, subject to our returns policy and product eligibility."
+      }
+    ]
+  },
+  "newsletter": {
+    "label": "Stay updated",
+    "title": "Get the latest appliance deals and service updates",
+    "description": "Subscribe to the BIGZICO newsletter and be the first to know about new arrivals, flash deals, and technician offers.",
+    "inputPlaceholder": "Enter your email",
+    "buttonText": "Subscribe"
+  },
+  "coverage": {
+    "label": "Nationwide coverage",
+    "title": "We deliver and service across Nigeria",
+    "description": "From Lagos to Abuja and beyond, BIGZICO helps you stay powered with speedy delivery, installation, and support.",
+    "button": {
+      "text": "Book a Technician →",
+      "href": "/services"
+    },
+    "cities": [
+      { "name": "Lagos", "time": "Same-day" },
+      { "name": "Abuja", "time": "Same-day" },
+      { "name": "Port Harcourt", "time": "1-2 days" },
+      { "name": "Ibadan", "time": "1-2 days" },
+      { "name": "Kano", "time": "2-3 days" },
+      { "name": "36 States", "time": "3-5 days" }
+    ],
+    "liveTracker": {
+      "title": "Live Service Tracker",
+      "activeLabel": "12 Active Now",
+      "orders": [
+        { "label": "Delivery to Lekki, Lagos", "progress": 75, "icon": "🚚" },
+        { "label": "AC Repair in Gwarinpa, Abuja", "progress": 40, "icon": "🚚" },
+        { "label": "Order BZ-8921 — PH City", "progress": 90, "icon": "🚚" }
+      ]
+    }
+  }
+}

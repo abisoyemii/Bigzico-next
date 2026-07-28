@@ -1,0 +1,2 @@
+import { CatalogLanding } from '@/components/product/CatalogLanding';
+export default function DealsPage() { return <CatalogLanding title="Flash Deals" description="Save on selected appliances while stocks last. Every deal comes with genuine BIGZICO support." />; }
