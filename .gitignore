@@ -1,4 +1,8 @@
-# Dependencies
+node_modules/
+/.next/
+dist/
+env.local
+bigzico-scraper/products.json# Dependencies
 node_modules/
 
 # Next.js build output
