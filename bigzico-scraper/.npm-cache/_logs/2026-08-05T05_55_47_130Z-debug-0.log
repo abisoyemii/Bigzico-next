@@ -1,0 +1,112 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\USER\Desktop\Bigzico\bigzico-next\integrations\.npmrc
+5 silly config load:file:C:\Users\USER\.npmrc
+6 silly config load:file:C:\Users\USER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--legacy-peer-deps" "--cache" ".npm-cache" "--loglevel" "error"
+9 verbose logfile logs-max:10 dir:C:\Users\USER\Desktop\Bigzico\bigzico-next\integrations\.npm-cache\_logs\2026-08-05T05_55_47_130Z-
+10 verbose logfile C:\Users\USER\Desktop\Bigzico\bigzico-next\integrations\.npm-cache\_logs\2026-08-05T05_55_47_130Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2225078272 maxSize:556269568 maxEntrySize:278134784
+13 silly idealTree buildDeps
+14 silly fetch manifest dotenv@^16.0.0
+15 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/dotenv 2797ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+18 silly fetch manifest pino@^8.0.0
+19 silly packumentCache full:https://registry.npmjs.org/pino cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/npm 3328ms
+21 http fetch GET 200 https://registry.npmjs.org/pino 1163ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/pino set size:undefined disposed:false
+23 silly fetch manifest zod@^3.23.8
+24 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/zod 4512ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+27 silly fetch manifest @types/node@^20.0.0
+28 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 11362ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+31 silly fetch manifest @typescript-eslint/eslint-plugin@^8.0.0
+32 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 106626ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:undefined disposed:false
+35 silly fetch manifest @typescript-eslint/parser@^8.0.0
+36 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fparser 10793ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:undefined disposed:false
+39 silly fetch manifest eslint@^8.0.0
+40 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/eslint 3451ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/eslint set size:undefined disposed:false
+43 silly fetch manifest jest@^29.0.0
+44 silly packumentCache full:https://registry.npmjs.org/jest cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/jest 3316ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/jest set size:undefined disposed:false
+47 silly fetch manifest ts-jest@^29.0.0
+48 silly packumentCache full:https://registry.npmjs.org/ts-jest cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/ts-jest 8145ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/ts-jest set size:undefined disposed:false
+51 silly fetch manifest ts-node-dev@^2.0.0
+52 silly packumentCache full:https://registry.npmjs.org/ts-node-dev cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/ts-node-dev 2525ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/ts-node-dev set size:undefined disposed:false
+55 silly fetch manifest typescript@^5.0.0
+56 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/typescript 11322ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+59 silly placeDep ROOT @types/node@20.19.43 OK for: bigzico-integrations@0.1.0 want: ^20.0.0
+60 silly placeDep ROOT @typescript-eslint/eslint-plugin@8.66.0 OK for: bigzico-integrations@0.1.0 want: ^8.0.0
+61 silly placeDep ROOT @typescript-eslint/parser@8.66.0 OK for: bigzico-integrations@0.1.0 want: ^8.0.0
+62 silly placeDep ROOT dotenv@16.6.1 OK for: bigzico-integrations@0.1.0 want: ^16.0.0
+63 silly placeDep ROOT eslint@8.57.1 OK for: bigzico-integrations@0.1.0 want: ^8.0.0
+64 silly placeDep ROOT jest@29.7.0 OK for: bigzico-integrations@0.1.0 want: ^29.0.0
+65 silly placeDep ROOT pino@8.21.0 OK for: bigzico-integrations@0.1.0 want: ^8.0.0
+66 silly placeDep ROOT ts-jest@29.4.12 OK for: bigzico-integrations@0.1.0 want: ^29.0.0
+67 silly placeDep ROOT ts-node-dev@2.0.0 OK for: bigzico-integrations@0.1.0 want: ^2.0.0
+68 silly placeDep ROOT typescript@5.9.3 OK for: bigzico-integrations@0.1.0 want: ^5.0.0
+69 silly placeDep ROOT zod@3.25.76 OK for: bigzico-integrations@0.1.0 want: ^3.23.8
+70 silly fetch manifest undici-types@~6.21.0
+71 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/undici-types 1248ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+74 silly fetch manifest ignore@^7.0.5
+75 silly packumentCache full:https://registry.npmjs.org/ignore cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/ignore 2390ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/ignore set size:undefined disposed:false
+78 silly fetch manifest ts-api-utils@^2.5.0
+79 silly packumentCache full:https://registry.npmjs.org/ts-api-utils cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/ts-api-utils 1762ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/ts-api-utils set size:undefined disposed:false
+82 silly fetch manifest natural-compare@^1.4.0
+83 silly packumentCache full:https://registry.npmjs.org/natural-compare cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/natural-compare 246ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/natural-compare set size:undefined disposed:false
+86 silly fetch manifest @typescript-eslint/utils@8.66.0
+87 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2futils 8145ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:undefined disposed:false
+90 silly fetch manifest @eslint-community/regexpp@^4.12.2
+91 silly packumentCache full:https://registry.npmjs.org/@eslint-community%2fregexpp cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@eslint-community%2fregexpp 1742ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@eslint-community%2fregexpp set size:undefined disposed:false
+94 silly fetch manifest @typescript-eslint/type-utils@8.66.0
+95 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftype-utils 4412ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils set size:undefined disposed:false
+98 silly fetch manifest @typescript-eslint/visitor-keys@8.66.0
+99 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 9393ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:undefined disposed:false
+102 silly fetch manifest @typescript-eslint/scope-manager@8.66.0
+103 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fscope-manager 11126ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager set size:undefined disposed:false
+106 silly fetch manifest debug@^4.4.3
+107 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/debug 4053ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+110 silly fetch manifest @typescript-eslint/types@8.66.0
+111 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss

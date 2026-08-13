@@ -1,6 +1,6 @@
 ﻿import Link from 'next/link';
-import { CategoryCard } from '@/components/CategoryCard';
 import { ProductGrid } from '@/components/ProductGrid';
+import type { Product } from '@/lib/mock-data';
 import { bestSellingProducts, brands, categories, featuredProducts, products } from '@/lib/mock-data';
 
 const categoryPills = [
@@ -26,6 +26,11 @@ const serviceCards = [
   { title: 'TV Installation', icon: '📺' },
   { title: 'Washing Machine Repairs', icon: '🧺' },
 ];
+
+function buildShowcaseProducts(items: Product[]) {
+  if (items.length === 0) return [];
+  return Array.from({ length: 100 }, (_, index) => items[index % items.length]);
+}
 
 function SectionHeading({ eyebrow, title, description, actionHref, actionLabel }: { eyebrow: string; title: string; description: string; actionHref?: string; actionLabel?: string }) {
   return (
@@ -62,6 +67,7 @@ export default function HomePage() {
       items: products.filter((product) => product.categorySlug === category.slug),
     }))
     .filter((group) => group.items.length > 0);
+  const showcaseProducts = buildShowcaseProducts(products);
 
   return (
     <main className="page-transition bg-slate-50/70">
@@ -125,20 +131,10 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <SectionHeading
           eyebrow="Shop by categories"
-          title="Curated collections for every room and every need"
-          description="Browse practical, design-forward appliances built to elevate modern living in Nigeria."
+          title="Explore hundreds of appliances in one place"
+          description="A wide, curated mix of top-rated products from refrigerators and air conditioners to generators and more."
         />
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          {categories.slice(0, 8).map((category) => (
-            <CategoryCard
-              key={category.slug}
-              name={category.name}
-              slug={category.slug}
-              product={products.find((item) => item.categorySlug === category.slug)}
-              productCount={category.productCount || 24}
-            />
-          ))}
-        </div>
+        <ProductGrid products={showcaseProducts} />
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
