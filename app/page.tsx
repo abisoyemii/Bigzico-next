@@ -183,7 +183,7 @@ function SectionHeading({ eyebrow, title, description, actionHref, actionLabel }
               <div className="mt-3 sm:mt-5 grid gap-2 sm:gap-3 grid-cols-2 sm:grid-cols-3">
                 {item.items.map((product) => (
                   <Link key={product.id} href={`/products/${product.slug}`} className="overflow-hidden rounded-lg sm:rounded-[18px] border border-slate-200 bg-slate-50 transition hover:-translate-y-1 hover:shadow-md">
-                    <img src={product.thumbnail} alt={product.name} className="aspect-square w-full object-cover" />
+                    <img src={product.thumbnail || product.images[0] || ''} alt={product.name} className="aspect-square w-full object-cover" />
                     <div className="p-2 sm:p-3">
                       <p className="text-xs sm:text-sm font-semibold text-slate-900 line-clamp-2">{product.name}</p>
                       <p className="mt-1 sm:mt-2 text-xs sm:text-sm font-semibold text-teal-700">₦{product.price.toLocaleString()}</p>
@@ -218,7 +218,7 @@ function SectionHeading({ eyebrow, title, description, actionHref, actionLabel }
               <div className="grid gap-3 sm:gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
                 {group.items.slice(0, 4).map((product) => (
                   <Link key={product.id} href={`/products/${product.slug}`} className="overflow-hidden rounded-lg sm:rounded-[20px] border border-slate-200 bg-slate-50 transition hover:-translate-y-1 hover:shadow-md">
-                    <img src={product.thumbnail} alt={product.name} className="aspect-square w-full object-cover" />
+                    <img src={product.thumbnail || product.images[0] || ''} alt={product.name} className="aspect-square w-full object-cover" />
                     <div className="p-2 sm:p-4">
                       <p className="text-xs sm:text-sm font-semibold text-slate-900 line-clamp-2">{product.name}</p>
                       <p className="mt-1 sm:mt-2 text-xs sm:text-sm text-slate-500">{product.brand}</p>

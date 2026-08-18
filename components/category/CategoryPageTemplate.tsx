@@ -118,7 +118,7 @@ export function CategoryPageTemplate({
                       <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-600">{product.category}</p>
                       <h3 className="mt-2 font-semibold text-slate-900">{product.name}</h3>
                       <p className="mt-2 text-sm text-slate-600">{product.shortDescription}</p>
-                      <div className="mt-3 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating))} <span className="text-slate-500">{product.reviewCount} reviews</span></div>
+                      <div className="mt-3 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating ?? 0))} <span className="text-slate-500">{product.reviewCount} reviews</span></div>
                       <div className="mt-4 flex items-end justify-between">
                         <div>
                           <p className="text-lg font-bold text-slate-900">₦{product.price.toLocaleString()}</p>
@@ -155,7 +155,7 @@ export function CategoryPageTemplate({
                   <div className="p-5">
                     <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-600">{product.category}</p>
                     <h3 className="mt-2 font-semibold text-slate-900">{product.name}</h3>
-                    <div className="mt-2 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating))} <span className="text-slate-500">{product.rating.toFixed(1)}</span></div>
+                    <div className="mt-2 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating ?? 0))} <span className="text-slate-500">{(product.rating ?? 0).toFixed(1)}</span></div>
                     <div className="mt-4 flex items-center justify-between">
                       <div>
                         <p className="text-lg font-bold text-slate-900">₦{product.price.toLocaleString()}</p>
@@ -185,7 +185,7 @@ export function CategoryPageTemplate({
                     <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-600">{product.category}</p>
                     <h3 className="mt-2 font-semibold text-slate-900">{product.name}</h3>
                     <p className="mt-2 text-sm text-slate-600">{product.shortDescription}</p>
-                    <div className="mt-3 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating))} <span className="text-slate-500">{product.rating.toFixed(1)}</span></div>
+                    <div className="mt-3 flex items-center gap-2 text-sm text-amber-500">{'★'.repeat(Math.round(product.rating ?? 0))} <span className="text-slate-500">{(product.rating ?? 0).toFixed(1)}</span></div>
                     <p className="mt-3 text-lg font-bold text-slate-900">₦{product.price.toLocaleString()}</p>
                   </div>
                 </div>
