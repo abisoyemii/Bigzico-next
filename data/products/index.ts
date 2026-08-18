@@ -1,0 +1,10 @@
+export { refrigeratorsProducts } from './refrigerators';
+export { freezersProducts } from './freezers';
+export { airConditionersProducts } from './air-conditioners';
+export { washingMachinesProducts } from './washing-machines';
+export { televisionsProducts } from './televisions';
+export { generatorsProducts } from './generators';
+export { microwavesProducts } from './microwaves';
+export { kitchenAppliancesProducts } from './kitchen-appliances';
+export { smartphonesProducts } from './smartphones';
+export { laptopsProducts } from './laptops';

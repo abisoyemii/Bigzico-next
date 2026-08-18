@@ -1,0 +1,2 @@
+import { InfoPage } from '@/components/content/InfoPage';
+export default function WarrantyPage() { return <InfoPage eyebrow="Shop with confidence" title="Warranty Information" description="Every genuine BIGZICO appliance is supported by manufacturer warranty and our after-sales team." points={['Manufacturer warranty on eligible products', 'Keep your invoice for warranty support', 'Our technicians can assist with diagnosis', 'Contact support to start a claim']} />; }

@@ -1,0 +1,5 @@
+import Link from 'next/link';
+
+export function InfoPage({ title, eyebrow, description, points }: { title: string; eyebrow?: string; description: string; points: string[] }) {
+  return <main className="page-transition mx-auto max-w-7xl px-4 py-12"><div className="rounded-3xl bg-gradient-to-r from-brand-primary to-teal-800 px-6 py-14 text-white sm:px-10"><p className="text-sm font-semibold uppercase tracking-widest text-teal-300">{eyebrow ?? 'BIGZICO'}</p><h1 className="mt-3 font-display text-4xl font-bold sm:text-5xl">{title}</h1><p className="mt-4 max-w-2xl text-gray-200">{description}</p></div><div className="mx-auto mt-10 grid max-w-5xl gap-4 sm:grid-cols-2">{points.map((point) => <div key={point} className="rounded-2xl border bg-white p-6 shadow-sm"><span className="text-2xl text-teal-600">✓</span><p className="mt-3 font-semibold">{point}</p></div>)}</div><div className="mt-10 text-center"><Link href="/shop" className="inline-flex rounded-full bg-teal-600 px-6 py-3 font-semibold text-white hover:bg-teal-700">Continue Shopping</Link></div></main>;
+}

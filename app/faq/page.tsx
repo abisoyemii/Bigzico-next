@@ -1,0 +1,2 @@
+import { InfoPage } from '@/components/content/InfoPage';
+export default function FaqPage() { return <InfoPage eyebrow="Need to know" title="Frequently Asked Questions" description="Helpful answers about delivery, warranties, products, and technician services." points={['Delivery takes 1-3 business days in major cities', 'All products are sourced from trusted distributors', 'Certified technicians offer installation and repair', 'Unused products can be returned within 7 days']} />; }

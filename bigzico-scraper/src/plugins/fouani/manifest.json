@@ -1,0 +1,12 @@
+{
+  "id": "fouani",
+  "name": "Fouani Official Store",
+  "version": "1.0.0",
+  "author": "BigZico",
+  "website": "https://fouanistore.com",
+  "baseUrl": "https://fouanistore.com",
+  "platform": "Next.js",
+  "type": "json-api",
+  "enabled": true,
+  "currency": "NGN"
+}
