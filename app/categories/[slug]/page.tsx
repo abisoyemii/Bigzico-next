@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { CategoryPageTemplate } from '@/components/category/CategoryPageTemplate';
 import { getCategoryPageContent } from '@/data/categories';
 import type { Product } from '@/lib/product';
+import { prisma } from '@/lib/prisma';
 
 const categoryNames: Record<string, string> = {
   refrigerators: 'Refrigerators',
