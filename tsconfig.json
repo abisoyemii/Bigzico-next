@@ -37,10 +37,11 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "src",
-    "app/api",
-    "lib/prisma.ts",
-    "prisma"
-  ]
+  "node_modules",
+  "src",
+  "app/api",
+  "lib/prisma.ts",
+  "prisma",
+  "bigzico-scraper"
+]
 }
