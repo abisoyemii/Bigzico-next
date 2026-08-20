@@ -50,12 +50,11 @@ function SectionHeading({ eyebrow, title, description, actionHref, actionLabel }
 }
 
   export default async function HomePage() {
-    const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+const baseUrl = "https://bigzico-next-b7il-e1v7imkhq-abisoyemiis-projects.vercel.app";
 
-  const response = await fetch(`${baseUrl}/api/products`, {
-    cache: 'no-store',
-  });
+const response = await fetch(`${baseUrl}/api/products`, {
+  cache: "no-store",
+});
 
   const data = response.ok ? await response.json() : [];
 
@@ -345,3 +344,4 @@ function SectionHeading({ eyebrow, title, description, actionHref, actionLabel }
     </main>
   );
 }
+
